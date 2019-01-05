@@ -551,6 +551,11 @@ h6 {
     .post .post-header .post-meta .post-time {
       font-size: 15px;
       color: #8a8a8a; }
+    .post .post-header .post-meta .post-count {
+      font-size: 14px;
+      color: #8a8a8a; }
+      .post .post-header .post-meta .post-count::before {
+        content: ' - '; }
     .post .post-header .post-meta .post-category {
       display: inline;
       font-size: 14px;
